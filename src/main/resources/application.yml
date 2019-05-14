@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: lyw123456
+    url: jdbc:mysql://58.213.48.27:3306/wjhtest?characterEncoding=utf-8&useSSl=false&serverTimezone=GMT%2B8
+  jpa:
+    show-sql: true
+  jackson:
+    default-property-inclusion: non_null
+server:
+  port: 9091
+  servlet:
+    context-path: /sell
